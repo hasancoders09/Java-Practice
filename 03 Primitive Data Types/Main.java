@@ -1,6 +1,6 @@
 
 public class Main {
-  
+public static void main(String[] args) {
  /* DataType    Size        Range */
   
 // byte         1 byte      from -128 to 127
@@ -23,6 +23,6 @@ boolean $booleanDtype = true;
 String $StringDtype = "Hello";     
 
 
-
+}
     
 }
