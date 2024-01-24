@@ -1,5 +1,5 @@
 
-/* ===============  Aria of Triangle ================ */
+/* ===============  Area of Triangle ================ */
 
 
 import java.util.Scanner;
@@ -16,10 +16,10 @@ public class Main
 		System.out.print("Enter the triangle Height: ");
 		$height = input.nextDouble();
 		
-		//The formula aria of triangle is = 1/2 * base * height
+		//The formula area of triangle is = 1/2 * base * height
 		$result = 0.5 * $base * $height;
 		
-		System.out.println("The aria of triangle is: " + $result);
+		System.out.println("The area of triangle is: " + $result);
 	}
 }
 
