@@ -3,8 +3,6 @@
 // *	Multiplication	Multiplies two values	x * y	
 // /	Division	Divides one value by another	x / y	
 // %	Modulus	Returns the division remainder	x % y	
-// ++	Increment	Increases the value of a variable by 1	++x	
-// --	Decrement	Decreases the value of a variable by 1	--x
 import java.util.Scanner;
 
 public class Main {
@@ -47,13 +45,7 @@ public static void main(String[] args) {
   $result = $num_1 % $num_2;
   System.out.println("Remainder value is: "+ $result);
   
-  //Incress number from $num_1
-  $result = ++ $num_1;
-  System.out.println("Incress from first number: "+ $result);
-  
-  //Decreases number from $num_1
-  $result = -- $num_2;
-  System.out.println("Decreases from secound number: "+ $result);
+
 
 }   
 }
