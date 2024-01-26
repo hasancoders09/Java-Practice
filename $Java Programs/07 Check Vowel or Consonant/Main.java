@@ -7,8 +7,8 @@ public class Main{
         char $letter;
         System.out.print("Enter a single letter: ");
         $letter = $inputLetter.next().charAt(0);
-        if($letter == 'a' | $letter == 'e' | $letter == 'i' | $letter == 'o' | $letter == 'u' |
-        $letter == 'A' | $letter == 'E' | $letter == 'I' | $letter == 'O' | $letter == 'U'){
+        if($letter == 'a' || $letter == 'e' || $letter == 'i' || $letter == 'o' || $letter == 'u' ||
+        $letter == 'A' || $letter == 'E' || $letter == 'I' || $letter == 'O' || $letter == 'U'){
             System.out.println("Vowel");
         }
         else{
