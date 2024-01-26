@@ -4,13 +4,16 @@ public class Main{
 public static void main (String[] args) {
     int $num;
     Scanner input = new Scanner(System.in);
-    System.out.print("Enter a integer number: ");
+    System.out.print("Enter a interger number: ");
     $num = input.nextInt();
     if($num > 0){
         System.out.println("This number is Positive");
     }
-    else{
+    else if($num < 0){
         System.out.println("This number is Negative");
+    }
+    else{
+        System.out.println("Equal to Zero");
     }
 }
 }
