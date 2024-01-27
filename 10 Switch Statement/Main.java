@@ -18,6 +18,9 @@ public class Main{
         System.out.print("Enter a number within 0-9: ");
         $num = $inputNum.nextInt();
         switch ($num){
+            case 0:
+                System.out.println("Zero");
+                break;
             case 1:
                 System.out.println("One");
                 break;
