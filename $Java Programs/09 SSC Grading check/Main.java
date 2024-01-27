@@ -29,7 +29,7 @@ public class Main{
             System.out.println("Sorry! You are Fail");
         }
         else{
-            System.out.println("invalid number");
+            System.out.println("invalid mark");
         }
     }
 }
