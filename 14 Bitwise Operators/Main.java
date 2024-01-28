@@ -41,6 +41,7 @@ public class Main
 		$num_2: 20 = 10100
 		$result      00101 = 5
 		=======================================*/
+		System.out.println("Result of 'Bitwise ExOR': " + $result);
 		
 	}
 }
