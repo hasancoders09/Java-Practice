@@ -43,5 +43,22 @@ public class Main
 		=======================================*/
 		System.out.println("Result of 'Bitwise ExOR': " + $result);
 		
+		//Bitwise Compliment (~)
+		$result = ~2;
+		/*=====================================
+		$num_1:   17 = 10001
+		2's Compliment    +1 or - (N + 1): -(17+1)
+		$result        10010 = -18 
+		=======================================*/
+		System.out.println("Result of 'Bitwise Compliment': " + $result );
+		
+		//Bitwise left shift
+		$result = $num_1 << 2;
+		/*=====================================
+		Formula: result = a^n
+		$num_1:     17  = 10001
+		$result        10|00100 = 4 
+		=======================================*/
+        System.out.println("Result of 'Bitwise left-shift': " + $result);		
 	}
 }
