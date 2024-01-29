@@ -52,13 +52,33 @@ public class Main
 		=======================================*/
 		System.out.println("Result of 'Bitwise Compliment': " + $result );
 		
-		//Bitwise left shift
+		//Bitwise left-shift
 		$result = $num_1 << 2;
 		/*=====================================
 		Formula: result = a^n
 		$num_1:     17  = 10001
-		$result        10|00100 = 4 
+		$result         1000100 = 68 
 		=======================================*/
-        System.out.println("Result of 'Bitwise left-shift': " + $result);		
+        System.out.println("Result of 'Bitwise left-shift': " + $result);	
+        
+        //Bitwise right-shift
+        $result = $num_1 >> 2;
+        /*======================================
+        Formula: result = a/2^n
+        $num_1      17 = 10001
+        $result          00100 = 4
+        ========================================*/
+        System.out.println("Result of 'Bitwise right-shift': " + $result);
+        
+        //Unsigned Bitwise right-shift 
+        $result = $num_1 >>> 2;
+        /*======================================
+        Formula: result = a/2^n
+        $num_1      17 = 10001
+        $result          00100 = 4
+        ========================================*/
+        System.out.println("Result of 'Unsigned Bitwise right-shift': " + $result);
+        
+        
 	}
 }
