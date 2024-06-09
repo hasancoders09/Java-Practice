@@ -53,15 +53,14 @@ public class Main
 		System.out.println();
 		
         // 1^2 + 2^2 3^2 +...+n^2
-// 		int sum4=0;
-// 		System.out.print("The List of number:");
-// 		for (int l = 1^2; l<=n; l=l+1){
-// 		    sum4 = sum4 + l^2;
-// 		    System.out.print(" "+l);
-// 		}
-// 		System.out.println();
-// 		System.out.println("The sum of 4rd series: " +sum4);
-// 		System.out.println();
+		int sum4=0;
+		System.out.print("The List of number:");
+		for (int l = 1; l<=n; l=l+1){
+		    sum4 = sum4 + l*l;
+		    System.out.print(" "+l);
+		}
+		System.out.println();
+		System.out.println("The sum of 4rd series: " +sum4);
+		System.out.println();
 	}
 }
-
