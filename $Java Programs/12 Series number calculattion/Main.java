@@ -62,5 +62,60 @@ public class Main
 		System.out.println();
 		System.out.println("The sum of 4rd series: " +sum4);
 		System.out.println();
+		
+        // 1 × 2 × 3 ×...×n
+		int sum5=1;
+		System.out.print("The List of number:");
+		for (int m = 1; m<=n; m=m+1){
+		    sum5 = sum5 * m;
+		    System.out.print(" "+m);
+		}
+		System.out.println();
+		System.out.println("The sum of 5rd series: " +sum5);
+		System.out.println();
+		
+        // 1 × 3 × 5 ×...×n
+		int sum6=1;
+		System.out.print("The List of number:");
+		for (int o = 1; o<=n; o=o+2){
+		    sum6 = sum6 * o;
+		    System.out.print(" "+o);
+		}
+		System.out.println();
+		System.out.println("The sum of 6rd series: " +sum6);
+		System.out.println();
+		
+        // 1 × 3 × 5 ×...×n
+		int sum7=1;
+		System.out.print("The List of number:");
+		for (int o = 1; o<=n; o=o+2){
+		    sum7 = sum7 * o;
+		    System.out.print(" "+o);
+		}
+		System.out.println();
+		System.out.println("The sum of 7rd series: " +sum7);
+		System.out.println();
+		
+        // 1.5 × 2.5 × 3.5 ×...×n
+		double sum8=1;
+		System.out.print("The List of number:");
+		for (double p = 1.5; p<=n; p=p+1){
+		    sum8 = sum8 * p;
+		    System.out.print(" "+p);
+		}
+		System.out.println();
+		System.out.println("The sum of 8rd series: " +sum8);
+		System.out.println();
+		
+        // 1^2 × 2^2 × 3^2 × 4^2 ×...× n^2
+		int sum9=1;
+		System.out.print("The List of number:");
+		for (int q = 1; q<=n; q=q+1){
+		    sum9 = sum9 * q*q;
+		    System.out.print(" "+q);
+		}
+		System.out.println();
+		System.out.println("The sum of 9rd series: " +sum9);
+		System.out.println();
 	}
 }
